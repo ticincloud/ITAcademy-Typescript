@@ -1,0 +1,37 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; }
+
+ion-icon {
+  color: #f33838;
+  font-size: 32px; }
+
+ion-icon.ibutton {
+  cursor: pointer; }
+
+.titolFons {
+  background-color: #f33838;
+  color: white !important;
+  font-weight: bold; }
+
+.titol {
+  color: #f33838 !important;
+  font-weight: bold;
+  font-size: 3rem; }
+  @media screen and (max-width: 770px) {
+    .titol {
+      font-size: calc(100% + 1vw + 1vh); } }
+
+.opcioMenu {
+  color: white !important;
+  font-weight: bold; 
+  cursor: pointer;
+}
+  .opcioMenu.disabled {
+    color: gainsboro !important; }
+
+.artInici {
+  height: 500px; }
+
+.ocult {
+  display: none; }
